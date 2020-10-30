@@ -1,0 +1,28 @@
+$secondary: #074F6E;
+$lightBlue: #0D9DDB;
+$lighterBlue: #CFEBF8;
+$lightGray: #737B7D;
+
+body{
+  color: $lightGray !important;
+}
+
+h1, h2, h3{
+  color: $lightBlue !important;
+  font-weight: normal !important;
+}
+
+h5{
+  font-weight: normal !important;
+  color: $lighterBlue;
+}
+
+ul, ol{
+  padding: 0;
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+.nav-link:hover{
+  color: $secondary !important;
+}

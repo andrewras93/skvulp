@@ -1,6 +1,7 @@
 $theme-colors: (
   "primary": #0A76A4,
   "secondary": #074F6E,
+  "light": #CFEBF8,
   /*"danger": ,
   "success": ,
   "info": ,
@@ -10,3 +11,9 @@ $theme-colors: (
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "global";
+
+/*@import "tablet";
+
+@import "computer";*/
