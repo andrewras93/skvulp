@@ -1,19 +1,11 @@
+@import "colors";
+
 $theme-colors: (
-  "primary": #0A76A4,
-  "secondary": #074F6E,
-  "light": #CFEBF8,
-  /*"danger": ,
-  "success": ,
-  "info": ,
-  "warning": ,
-  "light": ,
-  "dark":*/
+  "primary": $blue,
+  "secondary": $darkBlue,
+  "light": $lighterBlue,
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 @import "global";
-
-/*@import "tablet";
-
-@import "computer";*/

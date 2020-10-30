@@ -1,8 +1,3 @@
-$secondary: #074F6E;
-$lightBlue: #0D9DDB;
-$lighterBlue: #CFEBF8;
-$lightGray: #737B7D;
-
 body{
   color: $lightGray !important;
 }
@@ -24,5 +19,5 @@ ul, ol{
 }
 
 .nav-link:hover{
-  color: $secondary !important;
+  color: $darkBlue !important;
 }
