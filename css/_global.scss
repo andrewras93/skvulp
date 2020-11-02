@@ -18,6 +18,28 @@ ul, ol{
   list-style-type: none;
 }
 
+.parallax-img{
+  background: url(../img/parallax-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.parallax-img h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay{
+  min-height: inherit;
+  background: #00000060
+}
+
 .nav-link:hover{
   color: $darkBlue !important;
 }
