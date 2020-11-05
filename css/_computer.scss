@@ -1,0 +1,31 @@
+$computer: "screen and (min-width: 1200px)";
+
+@media #{$computer} {
+
+  /* Typography */
+
+  .display-3{
+    font-size: 2.9375rem !important;
+  }
+
+  .banner-tekst h1{
+    font-size: 3.25rem;
+  }
+
+  .banner-tekst h3{
+    font-size: 2.5625rem;
+  }
+
+  #main-section h1, #om-skvulp h2, #information h2, #tilmeld h2, #partnere h2{
+    font-size: 2rem;
+  }
+
+  #quote h5{
+    font-size: 1.1875rem;
+  }
+
+  #om-skvulp h3, footer h3{
+    font-size: 1.625rem;
+  }
+
+}

@@ -1,11 +1,17 @@
 @import "colors";
+@import "fonts";
 
 $theme-colors: (
   "primary": $blue,
   "secondary": $darkBlue,
-  "light": $lighterBlue,
+  "info": $lightBlue,
+  "light": $lighterBlue
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+@import "logo-slider";
 @import "global";
+@import "small-devices";
+@import "tablet";
+@import "computer";

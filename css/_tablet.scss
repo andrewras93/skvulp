@@ -1,0 +1,39 @@
+$tablet: "screen and (min-width: 768px)";
+
+@media #{$tablet} {
+
+  /* Typography */
+
+  body{
+    font-size: 1rem !important;
+  }
+
+  .lead{
+    font-size: 1.375rem !important;
+  }
+
+  .display-1{
+    font-size: 4rem !important;
+  }
+
+  .display-3{
+    font-size: 2.75rem !important;
+  }
+
+  .banner-tekst h1{
+    font-size: 3rem;
+  }
+
+  #main-section h1, #om-skvulp h2, #information h2, #tilmeld h2, #partnere h2{
+    font-size: 1.625rem;
+  }
+
+  #quote h5{
+    font-size: 1.125rem;
+  }
+
+  #om-skvulp h3, footer h3{
+    font-size: 1.5rem;
+  }
+
+}

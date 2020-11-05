@@ -1,0 +1,23 @@
+$small: "screen and (min-width: 576px)";
+
+@media #{$small} {
+
+  /* Typography */
+
+  .display-1{
+    font-size: 2.5625rem !important;
+  }
+
+  .display-3{
+    font-size: 2.5rem !important;
+  }
+
+  .banner-tekst h1{
+    font-size: 1.9375rem;
+  }
+
+  .banner-tekst h3{
+    font-size: 1.5625rem;
+  }
+
+}
